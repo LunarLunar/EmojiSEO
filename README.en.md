@@ -1,5 +1,7 @@
 # Emoji Finder - Your Ultimate Emoji Search Companion
 
+[**Live Demo**](https://lunarlunar.github.io/EmojiSEO/index.html)
+
 This is a simple yet powerful front-end project designed to provide a convenient interface for quickly searching, previewing, and copying emojis. Whether you're a developer, designer, or content creator, this tool makes it easy to find the perfect emoji for any occasion.
 
 ## Project Purpose and Features

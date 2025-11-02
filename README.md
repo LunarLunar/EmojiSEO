@@ -2,6 +2,8 @@
 
 # Emoji Finder - 您的 Emoji 搜尋好夥伴
 
+[**線上預覽**](https://lunarlunar.github.io/EmojiSEO/index.html)
+
 提供一個方便的介面來快速搜尋、預覽和複製 Emoji。無論您是開發者、設計師還是內容創作者，都可以透過這個工具輕鬆找到所需的 Emoji。
 
 ## 專案用途與特色
