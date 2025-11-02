@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emoji Finder - Easily Find and Copy Emojis</title>
+  <meta name="description" content="The ultimate Emoji Finder tool to search, discover, and copy any emoji for your notes, code, or UI designs. Categorized and searchable for quick access.">
+  <meta name="keywords" content="emoji, finder, copy, paste, emoticon, symbols, search, tool, developer, designer, AI, SEO">
+  <meta name="author" content="Kilo Code">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Emoji Finder",
+    "url": "https://your-website-url.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://your-website-url.com/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    },
+    "description": "The ultimate Emoji Finder tool to search, discover, and copy any emoji for your notes, code, or UI designs. Categorized and searchable for quick access.",
+    "author": {
+      "@type": "Person",
+      "name": "Kilo Code"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div id="selected-emojis-preview">
+        <div id="selected-emojis-display" contenteditable="true"></div>
+        <button id="copy-selected-btn">Copy</button>
+      </div>
+      <h1>Emoji Finder</h1>
+      <p class="description">
+        Welcome to Emoji Finder! Your one-stop destination to discover and copy emojis for any purpose. Whether you're crafting notes, writing code, or designing user interfaces, our extensive and well-organized emoji library makes it simple. Use the search bar or category buttons to find the perfect emoji in seconds. This site is optimized with AI-driven SEO to help you find exactly what you need.
+      </p>
+      <div class="controls">
+        <input type="search" id="search-box" placeholder="Search for an emoji...">
+        <div id="category-buttons"></div>
+      </div>
+    </header>
+    <div id="loader" class="loader" style="display: none;"></div>
+    <main id="emoji-grid" class="grid"></main>
+  </div>
+  <div id="tooltip" class="tooltip">Copied!</div>
+  <script src="script.js"></script>
+</body>
+</html>
