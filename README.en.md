@@ -8,14 +8,30 @@ This is a simple yet powerful front-end project designed to provide a convenient
 *   **Category Browsing**: Quickly browse specific emoji categories using predefined buttons.
 *   **One-Click Copy**: Copy any emoji to your clipboard with a single click on its card.
 *   **Multi-Select & Copy**: Add multiple emojis to a preview area and copy them all at once.
+*   **Copy as Tags**: Quickly copy and paste emojis into text as tags.
+*   **AI Icon Suggestions**: Allows AI to suggest suitable icons for your titles, making the process fast and convenient.
 *   **High-Performance Rendering**: Utilizes `requestAnimationFrame` and chunk rendering to ensure a smooth user experience, even with a large number of emojis.
-*   **Pure Front-End Implementation**: All CSS and JavaScript are bundled into the `index.html` file, requiring no back-end server and making deployment incredibly simple.
+*   **Pure Front-End Implementation**: This project uses separate HTML, CSS, and JavaScript files, requiring no back-end server and making deployment incredibly simple.
+
+---
+
+## Usage Screenshots
+
+Here are some screenshots demonstrating the functionality and potential uses of the Emoji Finder.
+
+### Interface Overview
+![Emoji Finder Interface](images/pic_EmojiSEO_1.png)
+*A clear view of the Emoji Finder's user interface, showcasing its search capabilities and category browsing.*
+
+### Quick Use for Text Titles
+![Emoji in Text Titles](images/pic_EmojiSEO_2.png)
+*Demonstrates how emojis can be quickly copied and used in text-based titles, such as for AI SEO optimization guides.*
 
 ---
 
 ## SEO Enhancements in This Project
 
-To ensure this tool is easily discoverable and recommended by search engines like Google, several key Search Engine Optimization (SEO) enhancements have been implemented. These optimizations are specifically tailored for modern, AI-driven search algorithms.
+This project also serves as a practical example for AI SEO. To ensure this tool is easily discoverable and recommended by search engines like Google, several key Search Engine Optimization (SEO) enhancements have been implemented. These optimizations are specifically tailored for modern, AI-driven search algorithms.
 
 ### 1. Rich Meta Tags
 
